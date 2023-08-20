@@ -1,0 +1,21 @@
+1. Create Threads for Sending and Reading.
+2. Check if we can create a good low layer can message interface to deliver can data 
+3. Do a worker for the CAN TX messages 
+4. Receiving CAN messages should have a high priority, means must have interrupts 
+5. socket can must be programmed 
+6. use can-utils to simulate data and test the API 
+
+
+
+7. Build a good logger 
+8. Build a good GUI for CANopen(API not yet 
+9. Build some kind of Memory Worker for cyclic data storage and reading on Init, an API that is over lowest Layer that is NVM like EEPROM or FLASH or ROM 
+
+
+
+
+
+X. For Logger Add Color Text
+XX. Add docker and qemu for hardware simulation 
+XXX. Ringbuffer, add Mutex and multiThreading handling 
+XXXX. Do a Code generator for CANopen OD, write it with python, reads config file like json 
